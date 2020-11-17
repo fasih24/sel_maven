@@ -8,8 +8,8 @@ public class BrowserTest {
 
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\uddin\\eclipse-workspace\\Selenium\\ab\\src\\main\\resources\\drivers\\chromedriver.exe");
-        //	System.setProperty("webdriver.gecko.driver","C:\\Users\\uddin\\eclipse-workspace\\hello\\geckodriver-v0.26.0-win64\\geckodriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\uddin\\selenium\\chromedriver.exe");
+      //	System.setProperty("webdriver.gecko.driver","C:\\Users\\uddin\\eclipse-workspace\\hello\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 
         //WebDriver driver= new FirefoxDriver();
         WebDriver driver= new ChromeDriver();
@@ -17,6 +17,7 @@ public class BrowserTest {
         driver.get("http://www.google.com");
         driver.get("http://www.yahoo.com");
         String currUrl=driver.getCurrentUrl();
+        System.out.println("current url : " +currUrl);
         System.out.println("current url : " +currUrl);
         String s=driver.getTitle();
         System.out.println("title : "+s);
