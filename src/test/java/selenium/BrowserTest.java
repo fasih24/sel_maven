@@ -17,6 +17,7 @@ public class BrowserTest {
         driver.get("http://www.yahoo.com");
         String currUrl=driver.getCurrentUrl();
         System.out.println("current url : " +currUrl);
+        System.out.println("current url : " +currUrl);
         String s=driver.getTitle();
         System.out.println("title : "+s);
         driver.navigate().to("http://ebfs.bruteforcesolution.net/ebfs/index.php");
