@@ -9,7 +9,7 @@ public class BrowserTest {
     public static void main(String[] args) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver","C:\\Users\\uddin\\selenium\\chromedriver.exe");
-        //	System.setProperty("webdriver.gecko.driver","C:\\Users\\uddin\\eclipse-workspace\\hello\\geckodriver-v0.26.0-win64\\geckodriver.exe");
+      //	System.setProperty("webdriver.gecko.driver","C:\\Users\\uddin\\eclipse-workspace\\hello\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 
         //WebDriver driver= new FirefoxDriver();
         WebDriver driver= new ChromeDriver();
