@@ -14,6 +14,7 @@ public class BrowserTest {
         //WebDriver driver= new FirefoxDriver();
         WebDriver driver= new ChromeDriver();
         driver.get("http://www.google.com");
+        driver.get("http://www.google.com");
         driver.get("http://www.yahoo.com");
         String currUrl=driver.getCurrentUrl();
         System.out.println("current url : " +currUrl);
